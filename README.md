@@ -1,6 +1,6 @@
 ## Hi ! 😁
 
-- I am Diyaeddine LAOUID, a 27 years old software developer.
+- I am Diyaeddine LAOUID, a 28 years old software developer.
 - I like backend, I like frontend, I like scripting, I like coding.
 - You may find various kind of personnal projects in my repositories tab.
 - I try to complete as much as projects as I can. As far as I write this cover, I completed **12 sides projects** (I don't count school projects).
