@@ -1,3 +1,5 @@
+export type TProjectType = "website" | "library" | "tool" | "app" | "game";
+
 export interface IProject {
     id: string;
     title: string;
@@ -13,7 +15,7 @@ export interface IProject {
     content?: string;
 
     status?: 'maintained' | 'deprecated' | 'archived';
-    projectType?: 'website' | 'library' | 'tool' | 'app' | 'game';
+    projectType?: TProjectType;
     
     // Liens de téléchargement (exécutables, etc.)
     downloads?: {

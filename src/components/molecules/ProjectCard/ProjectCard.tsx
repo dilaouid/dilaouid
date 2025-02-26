@@ -9,17 +9,13 @@ import {
   Clock,
   CheckCircle,
   AlertTriangle,
-  Globe,
-  BookOpen,
-  Smartphone,
-  Gamepad2,
   FlaskRound,
-  Wrench,
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { type ProjectCardProps } from "./ProjectCard.props";
 import { Button } from "@/components/atoms/Button/Button";
+import { ProjectTypeIcon } from "@/components/atoms/ProjectTypeIcon/ProjectTypeIcon";
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   project,
@@ -27,14 +23,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   className,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-
-  const projectTypeIcons = {
-    website: <Globe size={16} />,
-    library: <BookOpen size={16} />,
-    tool: <Wrench size={16} />,
-    app: <Smartphone size={16} />,
-    game: <Gamepad2 size={16} />,
-  };
 
   const statusBadges = {
     maintained: {
@@ -103,9 +91,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <div className="flex items-center gap-2">
             {/* Icône du type de projet (style amélioré) */}
             {project.projectType && (
-              <div className="p-2 rounded-lg bg-primary/20 text-primary shadow-inner glow">
-                {projectTypeIcons[project.projectType]}
-              </div>
+              <ProjectTypeIcon type={project.projectType} />
             )}
             <h3 className="text-xl font-bold tracking-tight">
               {project.title}
