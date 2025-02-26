@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
           to="/"
           className="text-xl font-bold tracking-tight transition-colors hover:text-primary"
         >
-          <span className="text-primary">D</span>Laouid
+          <span className="text-primary">D.</span>Laouid
         </Link>
 
         {/* Navigation sur desktop */}
