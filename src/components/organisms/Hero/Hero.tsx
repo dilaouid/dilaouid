@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/atoms/Button/Button";
-import { ArrowRight, Github, FileText } from "lucide-react";
+import { ArrowRight, Github, /* FileText */ } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 
 const Hero: React.FC = () => {

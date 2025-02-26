@@ -6,7 +6,7 @@ import {
 import React from 'react'
 
 import { MainLayout } from "./components/templates/MainLayout/MainLayout";
-import { withSuspense } from "./components/templates/withSuspense/WithSuspense";
+import { withSuspense } from "./components/templates/withSuspense/withSuspense";
 import { LoadingSpinner } from "./components/atoms/LoadingSpinner/LoadingSpinner";
 
 const Home = React.lazy(() => import('./components/pages/Home/Home').then(module => ({ default: module.Home })))

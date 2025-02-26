@@ -10,8 +10,8 @@ import {
   Server,
   Globe,
 } from "lucide-react";
-import { Link } from "@tanstack/react-router";
-import { Button } from "@/components/atoms/Button/Button";
+/* import { Link } from "@tanstack/react-router";
+import { Button } from "@/components/atoms/Button/Button"; */
 import { education, experiences, interests, personalInfo, skills } from "@/data";
 
 export const About: React.FC = () => {
@@ -323,7 +323,7 @@ export const About: React.FC = () => {
         </section>
 
         {/* Section Contact CTA */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
@@ -337,7 +337,7 @@ export const About: React.FC = () => {
               Contactez-moi
             </Button>
           </Link>
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   );

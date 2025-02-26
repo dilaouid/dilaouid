@@ -9,8 +9,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom', 'framer-motion'],
-          ui: ['@components/atoms', '@components/molecules'],
+          vendor: ['react', 'react-dom', 'framer-motion']
         },
       },
     },

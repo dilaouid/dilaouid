@@ -64,7 +64,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, className }) 
           </div>
 
           <div className="flex items-center gap-3">
-            <Link to={`/projects/${project.id}`} className="flex-grow">
+            <Link to={`/projects/$projectId`} params={{ projectId: project.id }} className="flex-grow">
               <Button variant="neon" className="w-full text-primary-foreground hover:text-primary-foreground">
                 Voir le projet
               </Button>

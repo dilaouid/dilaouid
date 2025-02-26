@@ -106,7 +106,7 @@ export const Blog: React.FC = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="p-6 rounded-lg bg-card border border-border hover:shadow-lg transition-shadow"
               >
-                <Link to={`/blog/${post.slug}`} className="block">
+                <Link to="/blog/$postSlug" params={{ postSlug: post.slug }} className="block">
                   <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex-grow">
                       <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground mb-3">

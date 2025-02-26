@@ -18,7 +18,7 @@ export const BlogPost: React.FC = () => {
           <h1 className="text-3xl font-bold mb-4">Article non trouvé</h1>
           <p className="text-muted-foreground mb-6">L'article que vous recherchez n'existe pas ou a été déplacé.</p>
           <Link to="/blog">
-            <Button variant="primary">Retour au blog</Button>
+            <Button>Retour au blog</Button>
           </Link>
         </div>
       </div>
@@ -150,10 +150,11 @@ export const BlogPost: React.FC = () => {
           >
             <h2 className="text-2xl font-bold mb-6">Articles connexes</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {relatedPosts.map((relatedPost, index) => (
+              {relatedPosts.map((relatedPost) => (
                 <Link
                   key={relatedPost.id}
-                  to={`/blog/${relatedPost.slug}`}
+                  to="/blog/$postSlug"
+                  params={{ postSlug: relatedPost.slug }}
                   className="block"
                 >
                   <div className="p-4 rounded-lg border border-border hover:border-primary/50 transition-colors bg-card hover:bg-card/80">
