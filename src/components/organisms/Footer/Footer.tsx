@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:contact@dilaouid.fr"
+                href="mailto:diyaeddine.laouid@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
