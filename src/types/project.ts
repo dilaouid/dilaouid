@@ -11,6 +11,9 @@ export interface IProject {
     featured: boolean;
     createdAt: string;
     content?: string;
+
+    status?: 'maintained' | 'deprecated' | 'archived';
+    projectType?: 'website' | 'library' | 'tool' | 'app' | 'game';
     
     // Liens de téléchargement (exécutables, etc.)
     downloads?: {
