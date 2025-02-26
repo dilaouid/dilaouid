@@ -1,4 +1,3 @@
-// src/pages/BlogPost/BlogPost.tsx
 import React from 'react'
 import { useParams, Link } from '@tanstack/react-router'
 import { motion } from 'framer-motion'
