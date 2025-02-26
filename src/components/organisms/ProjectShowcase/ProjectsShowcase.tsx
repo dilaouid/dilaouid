@@ -40,7 +40,7 @@ export const ProjectsShowcase: React.FC<ProjectsShowcaseProps> = ({
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          <Link to="/" search={{ path: "projects" }}>
+          <Link to="/projects">
             <Button variant="gradient" className="gap-2">
               Voir tous les projets
               <ArrowRight size={18} />
