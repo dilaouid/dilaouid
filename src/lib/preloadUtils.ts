@@ -9,7 +9,7 @@ export const preloadCriticalResources = () => {
 
     const imagePreload = document.createElement('link');
     imagePreload.rel = 'preload';
-    imagePreload.href = '/images/avatar.webp';
+    imagePreload.href = '/images/avatar.jpg';
     imagePreload.as = 'image';
     document.head.appendChild(imagePreload);
 };
