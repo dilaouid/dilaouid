@@ -127,7 +127,7 @@ export const projectsData: IProject[] = [
     thumbnail: '/images/projects/vaporwaver-php.jpg',
     technologies: ['PHP', 'GD Library', 'Image Processing'],
     github: 'https://github.com/dilaouid/vaporwaver-php',
-    stars: 4,
+    stars: 5,
     featured: false,
     createdAt: '2020-12-02'
   },
