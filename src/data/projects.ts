@@ -106,7 +106,7 @@ export const projectsData: IProject[] = [
     thumbnail: '/images/projects/mk4.jpg',
     technologies: ['Python', 'FFmpeg', 'PyQt5'],
     github: 'https://github.com/dilaouid/mk4',
-    stars: 3,
+    stars: 4,
     featured: false,
     createdAt: '2023-01-20',
     downloads: [
