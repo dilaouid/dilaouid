@@ -1,10 +1,19 @@
 export const experiences = [
     {
+        title: "Software Engineer Fullstack",
+        company: "Ledger",
+        type: "Freelance",
+        location: "Paris",
+        period: "Juillet 2025 - Aujourd'hui",
+        description:
+            "Ingénieur fullstack (React / Node / React Native / Typescript) pour la réalisation de solutions de coin integrations"
+    },
+    {
         title: "Formateur Développeur Fullstack et CDA",
         company: "3W Academy",
         location: "Paris",
         type: "Freelance",
-        period: "Juin 2023 - Aujourd'hui",
+        period: "Juin 2023 - Juillet 2025",
         description:
             "Formation FSD et CDA dans les concepts suivants: TypeScript, JavaScript, HTML/CSS, React, Angular, Node.js, PostgreSQL, MongoDB, architectures logicielles, FastAPI, API REST, Express, Drizzle ORM, Git, Docker.",
     },

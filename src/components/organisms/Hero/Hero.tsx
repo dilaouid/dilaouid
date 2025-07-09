@@ -78,9 +78,9 @@ const Hero: React.FC = () => {
               </div>
               <div className="absolute -bottom-4 -right-4 bg-card rounded-lg py-2 px-4 shadow-lg border border-border">
                 <div className="flex items-center gap-2">
-                  <span className="flex h-3 w-3 rounded-full bg-green-500"></span>
+                  <span className="flex h-3 w-3 rounded-full bg-red-500"></span>
                   <span className="text-sm font-medium">
-                    Disponible pour CDI / missions
+                    Non disponible
                   </span>
                 </div>
               </div>
