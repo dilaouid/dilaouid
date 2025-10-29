@@ -1,6 +1,6 @@
 ## 👋 Hi, I'm Diyaeddine LAOUID
 
-I’m a 28-year-old fullstack engineer based in France.  
+I’m a 29-year-old fullstack engineer based in France.  
 I create tools that solve real problems — from creative utilities to secure backup infrastructure.
 
 ---
