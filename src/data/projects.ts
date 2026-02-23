@@ -27,7 +27,7 @@ export const projectsData: IProject[] = [
     technologies: ['Node.js', 'API', 'Web Scraping', 'Vue.js', 'Vite', 'Tailwind', 'Hono'],
     github: 'https://github.com/dilaouid/FandomScraper',
     website: 'https://fandomscraper.dilaouid.fr/',
-    stars: 46,
+    stars: 50,
     featured: true,
     createdAt: '2023-07-25',
     demos: [
@@ -64,7 +64,7 @@ export const projectsData: IProject[] = [
     technologies: ['Python', 'TypeScript', 'Pillow', 'OpenCV', 'TKinter', 'Node.js', 'Next.js', 'Vite'],
     github: 'https://github.com/dilaouid/vaporwaver',
     website: 'https://vaporwaver.dilaouid.fr/',
-    stars: 4,
+    stars: 3,
     featured: false,
     createdAt: '2023-02-18',
     downloads: [
@@ -106,7 +106,7 @@ export const projectsData: IProject[] = [
     thumbnail: '/images/projects/mk4.jpg',
     technologies: ['Python', 'FFmpeg', 'PyQt5'],
     github: 'https://github.com/dilaouid/mk4',
-    stars: 7,
+    stars: 6,
     featured: false,
     createdAt: '2023-01-20',
     downloads: [
