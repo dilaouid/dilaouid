@@ -27,7 +27,7 @@ export const projectsData: IProject[] = [
     technologies: ['Node.js', 'API', 'Web Scraping', 'Vue.js', 'Vite', 'Tailwind', 'Hono'],
     github: 'https://github.com/dilaouid/FandomScraper',
     website: 'https://fandomscraper.dilaouid.fr/',
-    stars: 50,
+    stars: 52,
     featured: true,
     createdAt: '2023-07-25',
     demos: [
