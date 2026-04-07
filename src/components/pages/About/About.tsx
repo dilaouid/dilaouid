@@ -30,7 +30,7 @@ export const About: React.FC = () => {
             À <span className="text-primary">propos</span> de moi
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
-            Développeur Fullstack de 5 ans d'expérience en TypeScript, Node et
+            Développeur Fullstack de 7 ans d'expérience en TypeScript, Node et
             React, j'ai une solide expérience dans la conception et le
             développement d'applications web performantes. Polyvalent et
             rigoureux, je m'engage à créer des solutions efficaces répondant aux
