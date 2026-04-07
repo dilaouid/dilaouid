@@ -45,7 +45,7 @@ export const Home: React.FC = () => {
     <>
       <SEO
         title="Diyaeddine LAOUID - Développeur Fullstack"
-        description="Développeur Fullstack avec 5 ans d'expérience. Spécialiste React, TypeScript et Node.js disponible pour vos projets web."
+        description="Développeur Fullstack avec 7 ans d'expérience. Spécialiste React, TypeScript et Node.js disponible pour vos projets web."
         path=""
       />
       <PersonStructuredData
